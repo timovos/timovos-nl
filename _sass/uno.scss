@@ -1225,15 +1225,26 @@ hr {
 	right: 0;
 	bottom: 0;
 	left: 0;
-	background-color: rgba(68, 68, 68, 0.6);
-	background-image: -webkit-linear-gradient(-410deg, rgba(68, 68, 68, 0.6) 20%, rgba(0, 0, 0, 0.9));
-	background-image: linear-gradient(140deg,rgba(68, 68, 68, 0.6) 20%, rgba(0, 0, 0, 0.9)); }
+	background-color: rgba(140, 113, 26, 0.6);
+	background-image: -webkit-linear-gradient(-410deg, rgba(140, 113, 26, 0.6) 20%, rgba(0, 0, 0, 0.9));
+	background-image: linear-gradient(140deg,rgba(140, 113, 26, 0.6) 20%, rgba(0, 0, 0, 0.9)); }
 
 .panel-cover__logo {
 	margin-bottom: .2em; }
 
+.panel-cover__subtitle,
 .panel-cover__description {
 	margin: 0 30px; }
+
+.panel-cover__description--secondary {
+    font-size: 0.8em;
+	text-transform: uppercase;
+}
+
+.panel-cover__subtitle {
+	font-size: 1.1em;
+	font-weight: bold;
+}
 
 .panel-cover__divider {
 	width: 50%;
@@ -1241,7 +1252,10 @@ hr {
 	border-top: 1px solid rgba(255, 255, 255, 0.14); }
 
 .panel-cover__divider--secondary {
-	width: 15%; }
+	width: 30%; }
+
+.panel-cover__divider--tertiary {
+    width: 15%; }
 
 .panel-main {
 	display: table;
@@ -1570,9 +1584,14 @@ input[type="tel"] {
 	.panel-subtitle {
 		font-size: 1em; }
 
-	.panel-cover__description {
+	.panel-cover__description,
+	.panel-cover__subtitle {
 		margin: 0 10px;
 		font-size: .9em; }
+
+	.panel-cover__description--secondary {
+	    font-size: .7em;
+	}
 
 	.navigation--social {
 		margin-top: 5px;
@@ -1593,13 +1612,11 @@ input[type="tel"] {
 		display: table-cell;
 		padding: 60px 10%; }
 
-	.panel-cover__description {
+	.panel-cover__description,
+	.panel-cover__subtitle {
 		display: block;
 		max-width: 600px;
 		margin: 0 auto; }
-
-	.panel-cover__divider--secondary {
-		display: none; }
 
 	.panel-cover {
 		width: 100%;
@@ -1617,6 +1634,7 @@ input[type="tel"] {
 			.panel-cover.panel-cover--collapsed .panel-cover__logo {
 				width: 60px;
 				border-width: 2px; }
+			.panel-cover.panel-cover--collapsed .panel-cover__subtitle,
 			.panel-cover.panel-cover--collapsed .panel-cover__description {
 				display: none; }
 			.panel-cover.panel-cover--collapsed .panel-cover__divider {
