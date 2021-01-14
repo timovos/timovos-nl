@@ -1,8 +1,8 @@
 # Site settings
 title: Timo Vos
 subtitle: 'Web developer &middot; Backend developer'
-description: 'PHP &middot; MySQL &middot; JavaScript &middot; jQuery &middot; CSS &middot; SASS &middot; SCSS'
-description2: 'WordPress &middot; Git &middot; Ubuntu &middot; PHPStorm &middot; TYPO3 &middot; Laravel'
+description: 'PHP &middot; PostgreSQL &middot; MySQL &middot; JavaScript &middot; CSS &middot; SASS &middot; SCSS'
+description2: 'Laravel &middot; Drupal &middot; PHPStorm &middot; Git &middot; WordPress'
 url: 'http://joshgerdes.com/jekyll-uno'
 baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
