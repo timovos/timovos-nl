@@ -1,0 +1,121 @@
+/*	
+	Theme Name: Motors - Child Theme
+	Theme URI: http://motors.stylemixthemes.com/
+	Author: StylemixThemes
+	Author URI: http://stylemixthemes.com/
+	Description: Motors Child theme
+	Version: 2.5
+	License: GNU General Public License v2 or later
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+	Tags: blue, red, one-column, two-columns, three-columns, four-columns, left-sidebar, right-sidebar, fixed-layout, fluid-layout, responsive-layout, flexible-header, custom-background, custom-colors, custom-header, custom-menu, editor-style, sticky-post, theme-options
+	Text Domain: motors-child
+    Template: motors
+
+    This theme, like WordPress, is licensed under the GPL.
+    Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+/* Add your own styles here */
+.grecaptcha-badge {
+	display: none !important;
+}
+.minnema-label {
+}
+.minnema-line {
+	width: 100%;
+	clear: both;
+	margin: 10px;
+	padding: 0 0 12 0;
+}
+.minnema-heading1 {
+	font-size: 32px;
+	font-weight: 200;
+}
+.minnema-highlight {
+	font-size: 90px;
+	font-weight: 700;
+	color: #fff;
+}
+.minnema-highlight2 {
+	font-size: 70px;
+	font-weight: 700;
+	line-height: 70px;
+	color: #fff;
+}
+.minnema-super {
+	position: relative;
+	display: inline-block;
+	top: -10px;
+	vertical-align: top;
+	font-size: 60px;
+	font-weight: 900;
+	color: #fff;
+}
+.minnema-heading1-super {
+	position: relative;
+	display: inline-block;
+	top: -3px;
+	vertical-align: top;
+	font-size: 32px;
+	font-weight: 400;
+	color: #fff;
+}
+.minnema-sub {
+	position: relative;
+	display: inline-block;
+	font-size: 30px;
+	font-weight: 300;
+	color: #000;
+}
+.minnema-heading2 {
+	position: relative;
+	right: 0px;
+	text-align: right;
+	font-size: 40px;
+	font-weight: 500;
+  text-transform: uppercase;
+}
+.minnema-heading3 {
+	position: relative;
+	text-align: left;
+	font-size: 26px;
+	font-weight: 300;
+  text-transform: uppercase;
+}
+.minnema-white {
+	color: #fff;
+}
+/*frontpage first slide*/
+.minnema-linefp {
+	width: 100%;
+	clear: both;
+	margin: 10px;
+	padding: 0 0 10px 0;
+}
+.minnema-headingfp1 {
+	font-size: 36px;
+	font-weight: 600;
+}
+.minnema-headingfp2 {
+	position: relative;
+	right: 0px;
+	text-align: right;
+	font-size: 26px;
+	font-weight: 1000;
+  text-transform: uppercase;
+}
+.minnema-small {
+	text-align: bottom;
+	font-size: -0.3em;
+}
+.tagglePlayer {
+	width: 100%;
+	text-align: center;
+}
+.taggleQRCode{
+	width: 100%;
+	text-align: center;	
+}
+.taggleQRCode a{
+	text-transform: none;
+}
